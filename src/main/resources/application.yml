@@ -1,0 +1,40 @@
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    mode: HTML5
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+  redis:
+    port: 6379
+    max:
+      total: 10
+      idle: 10
+    min:
+      idle: 2
+    host: 118.31.2.56
+    password: 189mk222.
+    test:
+      borrow: true
+      return: true
+
+
+img:
+  local:
+    path: D://Ali/upload
+
+qiniu:
+  accessKey: LMoU2DwKI9ykISmzoIiVi9Cx-0PKwKhLlmWmMJN3
+  secretKey: bHglqb0pxNYh2JbfbraU3LswvWOOe15FfF4D8rC5
+  bucket: onmybussiness
+
+
+
+jdbc:
+  driver: com.mysql.cj.jdbc.Driver
+  username: root
+  password: 123456
+  url: jdbc:mysql://localhost:3306/business?serverTimezone=UTC
