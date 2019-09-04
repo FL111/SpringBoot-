@@ -16,6 +16,6 @@ public class MySpringBootConfig implements WebMvcConfigurer {
         registry.addInterceptor(adminInterceptor)
                 .addPathPatterns("/user/**","/order/**","/product/**","/cart/**","/cartgory/**","/shipping/**")
                 .excludePathPatterns("/user/login.do","/user/register.do","/user/check_valid.do","/user/forget_get_question.do",
-                        "/user/forget_check_answer.do","/user/forget_reset_password.do","/user/logout.do","/user/res","/product/list.do");
+                        "/user/forget_check_answer.do","/user/forget_reset_password.do","/user/logout.do","/user/res","/product/list.do","/cart/list.do");
     }
 }

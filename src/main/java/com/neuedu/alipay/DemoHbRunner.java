@@ -6,6 +6,7 @@ import com.alipay.demo.trade.service.AlipayMonitorService;
 import com.alipay.demo.trade.service.impl.hb.AbsHbRunner;
 import com.alipay.demo.trade.service.impl.hb.HbQueue;
 import com.alipay.demo.trade.utils.Utils;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.ArrayList;
 import java.util.Date;
